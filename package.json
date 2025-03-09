@@ -1,0 +1,20 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./frontend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "start": "start-server -s ./frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd frontend && npm ci"
+  },
+  "author": "ivan",
+  "license": "ISC",
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.9",
+    "chart.js": "^4.4.8",
+    "react-chartjs-2": "^5.3.0"
+  }
+}
